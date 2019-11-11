@@ -1,3 +1,31 @@
 body{
     background: #f4f4f4
 }
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar li{
+    font-size: 24px;
+    padding: 20px;
+}
+
+#searchBox{
+    height: 100%;
+}
+
+@media (min-width: 576px){
+    input[type=search] {
+        border: solid 1px #ccc;
+        padding: 9px 10px 9px 32px;
+        width: 55px;
+    }
+    input[type=search]:focus {
+        width: 500px;
+    }
+}
