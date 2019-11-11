@@ -1,5 +1,5 @@
 body{
-    background: #f4f4f4
+    background: #f4f4f4;
 }
 
 .navbar {
@@ -18,6 +18,16 @@ body{
 #searchBox{
     height: 100%;
 }
+
+.carousel-item {
+    height: 75vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
 @media (min-width: 576px){
     input[type=search] {
