@@ -1,5 +1,5 @@
 body{
-    background: #f4f4f4;
+    background: #ffffff;
 }
 
 .navbar {
@@ -8,6 +8,7 @@ body{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .navbar li{
@@ -28,6 +29,12 @@ body{
     -o-background-size: cover;
     background-size: cover;
   }
+
+#productJumbo{
+    background-color: #ffffff;
+    background-image: url("../img/jumbo.jpg");
+    padding: 40 0 40 0;
+}
 
   footer{
       margin-top: 100px;
