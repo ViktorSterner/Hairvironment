@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
     <script src="js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -64,10 +65,10 @@
 
     <div class="container mt-3">
         <div class="jumbotron text-center">
-            <h1>Produkter</h1>
+            <h1>Hårvård</h1>
         </div>
 
-        <div class="row">
+        <div class="row" id="mainBox">
             <div clas="col-md-3" id="filterMenu">
                 <aside>
                     <div class="card">
@@ -133,134 +134,253 @@
                 </aside> <!-- col.// -->
             </div>
             <div class="col-md-9">
-                <div class="row">
-
-                    <!-- Team Member 1 -->
-                    <div class="col-xl-3 col-md-6 mb-4">
-                        <div class="card border-0 shadow">
-                            <img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title mb-0">Team Member</h5>
-                                <div class="card-text text-black-50">Web Developer</div>
+                <div class="container">
+                    <h3 class="h3">shopping Demo-3 </h3>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="product-grid3">
+                                <div class="product-image3">
+                                    <a href="#">
+                                        <img class="pic-1"
+                                            src="http://bestjquery.com/tutorial/product-grid/demo4/images/img-1.jpg">
+                                        <img class="pic-2"
+                                            src="http://bestjquery.com/tutorial/product-grid/demo4/images/img-2.jpg">
+                                    </a>
+                                    <ul class="social">
+                                        <li><a href="#"><i class="fa fa-shopping-bag"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                    <span class="product-new-label">New</span>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title"><a href="#">Men's Blazer</a></h3>
+                                    <div class="price">
+                                        $63.50
+                                    </div>
+                                    <ul class="rating">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star disable"></li>
+                                        <li class="fa fa-star disable"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="product-grid3">
+                                <div class="product-image3">
+                                    <a href="#">
+                                        <img class="pic-1"
+                                            src="http://bestjquery.com/tutorial/product-grid/demo4/images/img-3.jpg">
+                                        <img class="pic-2"
+                                            src="http://bestjquery.com/tutorial/product-grid/demo4/images/img-4.jpg">
+                                    </a>
+                                    <ul class="social">
+                                        <li><a href="#"><i class="fa fa-shopping-bag"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title"><a href="#">Women's Designer Top</a></h3>
+                                    <div class="price">
+                                        $43.50
+                                    </div>
+                                    <ul class="rating">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="product-grid3">
+                                <div class="product-image3">
+                                    <a href="#">
+                                        <img class="pic-1"
+                                            src="http://bestjquery.com/tutorial/product-grid/demo4/images/img-5.jpg">
+                                        <img class="pic-2"
+                                            src="http://bestjquery.com/tutorial/product-grid/demo4/images/img-6.jpg">
+                                    </a>
+                                    <ul class="social">
+                                        <li><a href="#"><i class="fa fa-shopping-bag"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                    <span class="product-new-label">New</span>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title"><a href="#">Men's Blazer</a></h3>
+                                    <div class="price">
+                                        $63.50
+                                    </div>
+                                    <ul class="rating">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star disable"></li>
+                                        <li class="fa fa-star disable"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="product-grid3">
+                                <div class="product-image3">
+                                    <a href="#">
+                                        <img class="pic-1"
+                                            src="http://bestjquery.com/tutorial/product-grid/demo4/images/img-7.jpg">
+                                        <img class="pic-2"
+                                            src="http://bestjquery.com/tutorial/product-grid/demo4/images/img-8.jpg">
+                                    </a>
+                                    <ul class="social">
+                                        <li><a href="#"><i class="fa fa-shopping-bag"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                    <span class="product-new-label">New</span>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title"><a href="#">Men's Blazer</a></h3>
+                                    <div class="price">
+                                        $63.50
+                                    </div>
+                                    <ul class="rating">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star disable"></li>
+                                        <li class="fa fa-star disable"></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <!-- Team Member 2 -->
-                    <div class="col-xl-3 col-md-6 mb-4">
-                        <div class="card border-0 shadow">
-                            <img src="https://source.unsplash.com/9UVmlIb0wJU/500x350" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title mb-0">Team Member</h5>
-                                <div class="card-text text-black-50">Web Developer</div>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="product-grid3">
+                                <div class="product-image3">
+                                    <a href="#">
+                                        <img class="pic-1"
+                                            src="http://bestjquery.com/tutorial/product-grid/demo4/images/img-1.jpg">
+                                        <img class="pic-2"
+                                            src="http://bestjquery.com/tutorial/product-grid/demo4/images/img-2.jpg">
+                                    </a>
+                                    <ul class="social">
+                                        <li><a href="#"><i class="fa fa-shopping-bag"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                    <span class="product-new-label">New</span>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title"><a href="#">Men's Blazer</a></h3>
+                                    <div class="price">
+                                        $63.50
+                                    </div>
+                                    <ul class="rating">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star disable"></li>
+                                        <li class="fa fa-star disable"></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- Team Member 3 -->
-                    <div class="col-xl-3 col-md-6 mb-4">
-                        <div class="card border-0 shadow">
-                            <img src="https://source.unsplash.com/sNut2MqSmds/500x350" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title mb-0">Team Member</h5>
-                                <div class="card-text text-black-50">Web Developer</div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="product-grid3">
+                                <div class="product-image3">
+                                    <a href="#">
+                                        <img class="pic-1"
+                                            src="http://bestjquery.com/tutorial/product-grid/demo4/images/img-3.jpg">
+                                        <img class="pic-2"
+                                            src="http://bestjquery.com/tutorial/product-grid/demo4/images/img-4.jpg">
+                                    </a>
+                                    <ul class="social">
+                                        <li><a href="#"><i class="fa fa-shopping-bag"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title"><a href="#">Women's Designer Top</a></h3>
+                                    <div class="price">
+                                        $43.50
+                                    </div>
+                                    <ul class="rating">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- Team Member 4 -->
-                    <div class="col-xl-3 col-md-6 mb-4">
-                        <div class="card border-0 shadow">
-                            <img src="https://source.unsplash.com/ZI6p3i9SbVU/500x350" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title mb-0">Team Member</h5>
-                                <div class="card-text text-black-50">Web Developer</div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="product-grid3">
+                                <div class="product-image3">
+                                    <a href="#">
+                                        <img class="pic-1"
+                                            src="http://bestjquery.com/tutorial/product-grid/demo4/images/img-5.jpg">
+                                        <img class="pic-2"
+                                            src="http://bestjquery.com/tutorial/product-grid/demo4/images/img-6.jpg">
+                                    </a>
+                                    <ul class="social">
+                                        <li><a href="#"><i class="fa fa-shopping-bag"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                    <span class="product-new-label">New</span>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title"><a href="#">Men's Blazer</a></h3>
+                                    <div class="price">
+                                        $63.50
+                                    </div>
+                                    <ul class="rating">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star disable"></li>
+                                        <li class="fa fa-star disable"></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- Team Member 1 -->
-                    <div class="col-xl-3 col-md-6 mb-4">
-                        <div class="card border-0 shadow">
-                            <img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title mb-0">Team Member</h5>
-                                <div class="card-text text-black-50">Web Developer</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Team Member 2 -->
-                    <div class="col-xl-3 col-md-6 mb-4">
-                        <div class="card border-0 shadow">
-                            <img src="https://source.unsplash.com/9UVmlIb0wJU/500x350" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title mb-0">Team Member</h5>
-                                <div class="card-text text-black-50">Web Developer</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Team Member 3 -->
-                    <div class="col-xl-3 col-md-6 mb-4">
-                        <div class="card border-0 shadow">
-                            <img src="https://source.unsplash.com/sNut2MqSmds/500x350" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title mb-0">Team Member</h5>
-                                <div class="card-text text-black-50">Web Developer</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Team Member 4 -->
-                    <div class="col-xl-3 col-md-6 mb-4">
-                        <div class="card border-0 shadow">
-                            <img src="https://source.unsplash.com/ZI6p3i9SbVU/500x350" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title mb-0">Team Member</h5>
-                                <div class="card-text text-black-50">Web Developer</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- Team Member 1 -->
-                    <div class="col-xl-3 col-md-6 mb-4">
-                        <div class="card border-0 shadow">
-                            <img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title mb-0">Team Member</h5>
-                                <div class="card-text text-black-50">Web Developer</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Team Member 2 -->
-                    <div class="col-xl-3 col-md-6 mb-4">
-                        <div class="card border-0 shadow">
-                            <img src="https://source.unsplash.com/9UVmlIb0wJU/500x350" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title mb-0">Team Member</h5>
-                                <div class="card-text text-black-50">Web Developer</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Team Member 3 -->
-                    <div class="col-xl-3 col-md-6 mb-4">
-                        <div class="card border-0 shadow">
-                            <img src="https://source.unsplash.com/sNut2MqSmds/500x350" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title mb-0">Team Member</h5>
-                                <div class="card-text text-black-50">Web Developer</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Team Member 4 -->
-                    <div class="col-xl-3 col-md-6 mb-4">
-                        <div class="card border-0 shadow">
-                            <img src="https://source.unsplash.com/ZI6p3i9SbVU/500x350" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title mb-0">Team Member</h5>
-                                <div class="card-text text-black-50">Web Developer</div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="product-grid3">
+                                <div class="product-image3">
+                                    <a href="#">
+                                        <img class="pic-1"
+                                            src="http://bestjquery.com/tutorial/product-grid/demo4/images/img-7.jpg">
+                                        <img class="pic-2"
+                                            src="http://bestjquery.com/tutorial/product-grid/demo4/images/img-8.jpg">
+                                    </a>
+                                    <ul class="social">
+                                        <li><a href="#"><i class="fa fa-shopping-bag"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                    <span class="product-new-label">New</span>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title"><a href="#">Men's Blazer</a></h3>
+                                    <div class="price">
+                                        $63.50
+                                    </div>
+                                    <ul class="rating">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star disable"></li>
+                                        <li class="fa fa-star disable"></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
         <footer class="section footer-classic border-top">
             <div class="container">
